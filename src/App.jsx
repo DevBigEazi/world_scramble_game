@@ -31,10 +31,10 @@ function App() {
   };
 
   return (
-    <main style={{ textAlign: "center", marginTop: "50px" }}>
-      <div>
+    <main>
+      <div >
         <h1>Scrambled Word Game</h1>
-        <h2>Guess this scramled world: {scrambledWord}</h2>
+        <h2>Guess this scramled world: <span>{scrambledWord}</span></h2>
         <input
           type="text"
           value={inputValue}
