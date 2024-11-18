@@ -14,6 +14,7 @@ function App() {
 
   const handleInputValueChange = (e) => setInputValue(e.target.value);
 
+  // handle guess function logic
   const handleGuess = () => {
     if (inputValue.toLowerCase() === originalWord.toLowerCase()) {
       setFeedback("Correct! 🍾");
